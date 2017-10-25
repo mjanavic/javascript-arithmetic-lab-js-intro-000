@@ -15,11 +15,11 @@ function add(a, b) {
  }
 
 function inc(n) {
-  var result =  n++;
+  var result =  ++n;
   return result;
 }
 
 function dec(n) {
-  var result = n--;
+  var result = --n;
   return result;
 }
